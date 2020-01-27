@@ -1,3 +1,3 @@
 <?php
 
-require_once("views/calculadora.html");
+require_once 'views/calculadora.html';
