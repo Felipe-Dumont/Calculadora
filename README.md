@@ -12,3 +12,9 @@ Neste Projeto vamos seguir o modelo de projetos MVC, mas como, inicialmente, nos
 
 
 ![Gif bode](https://github.com/Felipe-Dumont/Calculadora/blob/master/giphy.gif)
+
+[] criar a estrutura do projeto.
+[] criar a parte visual (utilizando html css basico).
+[] criar a a camada controladora
+[] fazer os testes.
+[] finalizado.
