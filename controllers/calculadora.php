@@ -25,4 +25,4 @@ switch ($_POST['sinal']) {
 	break;
 }
 
-require_once '../views/calculadora.html';
+require_once '../views/resultsCalc.html';

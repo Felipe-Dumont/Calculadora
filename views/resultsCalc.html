@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Calculadora - PHP</title>
+	<style type="text/css">
+
+	</style>
+</head>
+<body>
+
+	<h1>Calculadora</h1>
+
+	<main>
+		<div class="calc">
+
+			<div class="numbers">
+
+				<div class="display">
+					<p> <?=$results?> </p>
+				</div>
+
+				<form action="../controllers/calculadora.php" method="post">
+					<input type="text" name="num1" value="">
+					<select name="sinal">
+						<option value="+">+</option>
+						<option value="-">-</option>
+						<option value="*">*</option>
+						<option value="/">/</option>
+					</select>
+					<input type="text" name="num2" value="">
+
+					<input type="submit" name="igual" class="enviar" value="Calcular">
+				</form>
+			</div>
+
+		</div>
+	</main>
+
+</body>
+</html>
