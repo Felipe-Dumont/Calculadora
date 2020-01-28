@@ -11,12 +11,10 @@ Neste Projeto vamos seguir o modelo de projetos MVC, mas como, inicialmente, nos
 
 Em nosso projeto, utlizamos o comando ``` php -S localhost:8000 ``` para starta nosso servidor de codificação.
 
-- [x] criar a estrutura do projeto.
-	- Criamos a pasta views, que contem a calculadora.html e o style.css
-	- Criamos a pasta controllers que esta guardando nosso arquivo calculadora.php que é responsavel por controlar as informções vinda da view.
-- [ ] criar a parte visual (utilizando html css basico).
-- [x] criar a a camada controladora
-	- O arquivo de controle, apenas verifica qual informação do sinal vem por POST e retorna o resultado controlado por um switch.
+- [x] criar a estrutura do projeto.as informções vinda da view.
+- [x] criar a parte visual (utilizando html css basico).
+	- utilizando a ferramenta Gravit Desing free, foi desenvolvido o layout da calculadora e reproduzido com html e css.
+- [ ] criar a a camada controladora
 - [ ] fazer os testes.
 - [ ] finalizado.
 
