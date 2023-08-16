@@ -1,0 +1,17 @@
+{
+    "name": "dumont/calculadora",
+    "autoload": {
+        "psr-4": {
+            "Dumont\\Calculadora\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Felipe Dumont",
+            "email": "felipe00.dumont@gmail.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.5"
+    }
+}
