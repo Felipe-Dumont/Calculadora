@@ -41,7 +41,8 @@ main {
     align-items: inherit;
 }
 
-button {
+button,
+input {
     width: 56.1px;
     height: 56.1px;
     background-color: #C3CFD9;

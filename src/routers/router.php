@@ -23,10 +23,13 @@ function load(string $controller, string $action)
 
 $router = [
         'GET' => [
-        '/' => function () {
-            load('Calculadora', 'index');
-        },
+            '/' => function () {
+                load('Calculadora', 'index');
+            },
         ],
         'POST' => [
+            '/' => function () {
+                load('Calculadora', 'compute');
+            },
         ]
 ];
